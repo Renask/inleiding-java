@@ -1,3 +1,4 @@
+package hoofdstuk4;
 
 import java.awt.*;
 import java.applet.*;

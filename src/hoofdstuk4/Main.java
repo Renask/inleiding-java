@@ -1,3 +1,4 @@
+package hoofdstuk4;
 
 import java.awt.*; //Methodes importeren uit java.awt.*
 import java.applet.*; //Alle methode uit java.applet.* importeren

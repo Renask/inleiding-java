@@ -14,4 +14,5 @@ public class Opdracht1 extends Applet {
         g.drawLine(260, 180, 150, 10);
         g.drawLine(40, 180, 260, 180);
     }
+}
 //hmm
