@@ -2,6 +2,7 @@ package H6;
 
 import java.awt.*;
 import java.applet.*;
+import java.text.DecimalFormat;
 
 
 public class h064 extends Applet {
@@ -14,9 +15,11 @@ public class h064 extends Applet {
         c = 59;
         d = 30;
         uitkomst = (a + b +c) /d ;
+
     }
 
     public void paint(Graphics g) {
-        g.drawString("De uitkomst is: " + uitkomst, 20, 20);
+        DecimalFormat df = new DecimalFormat("#.#");
+        g.drawString("De uitkomst is: " +  df.format(uitkomst), 20, 20);
     }
 }
