@@ -8,23 +8,24 @@ public class h052 extends Applet {
     public void init() {
     }
 
-    int x = 40;
+    int valerie = 40;
+    int jeroen = 100;
+    int hans = 80;
+    int hoogtexas = 200;
+    int v = hoogtexas - valerie;
+    int j = hoogtexas - jeroen;
+    int h = hoogtexas - hans;
 
     public void paint(Graphics g) {
-        g.drawString("100", 60, 70);
-        g.drawString("80", 60, 100);
-        g.drawString("60", 60, 130);
-        g.drawString("40", 60, 160);
-        g.drawString("20", 60, 190);
-        g.drawLine(57, 210, 57, 55);
-        g.drawString("Valerie", 90, 221);
-        g.drawString("Jeroen", 160, 221);
-        g.drawString("Hans", 230, 221);
-        g.setColor(Color.red);
-        g.fillRect(90, 144, x, 66);
-        g.setColor(Color.cyan);
-        g.fillRect(160, 55, x, 155);
-        g.setColor(Color.green);
-        g.fillRect(230, 90, x, 120);
+        g.drawLine(200, 50, 200, 200);
+        g.drawLine(350, 200, 200, 200);
+        g.fillRect(220, v,30, valerie);
+        g.fillRect(270, j, 30,jeroen);
+        g.fillRect(320, h, 30,hans);
+        g.drawString("Valerie", 220, 215);
+        g.drawString("Jeroen", 270, 215);
+        g.drawString("Hans", 320, 215);
+        g.drawString("0", 180, 200);
+        g.drawString("150", 175, 60);
     }
 }
