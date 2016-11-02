@@ -1,7 +1,7 @@
 package H11;
 
-import java.awt.*;
-import java.applet.*;
+        import java.awt.*;
+        import java.applet.*;
 
 
 public class h1105 extends Applet {

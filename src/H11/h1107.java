@@ -9,13 +9,13 @@ public class h1107 extends Applet {
     public void init() {}
 
     public void paint(Graphics g) {
-        int vierkant;
+        int oval;
         int y = 470;
         int x = 700;
         int x1 = 0;
         int y1 = 0;
 
-        for (vierkant = 0; vierkant < 50; vierkant++) {
+        for (oval = 0; oval < 50; oval++) {
             y -= 5;
             x -= 5;
             x1+=10;
